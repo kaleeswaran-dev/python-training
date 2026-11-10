@@ -1,0 +1,28 @@
+env installed comments:
+
+for creating env : python -m venv .venv
+for active env : .venv\Scripts\activate
+
+
+if facing issue 
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+panda requesta commands : pip install requests pandas 
+
+
+pip list ===> this command used to what are the tools have in this pip
+
+pip freeze > requirements.txt  ===> generate new requirements.txt file
+
+delete requirements.txt
+
+for windows:
+	rmdir /s .venv
+	
+for linux and mac:
+	rm -rf .venv
+	
+	
+for install requirements.txt:
+	pip install -r requirements.txt
